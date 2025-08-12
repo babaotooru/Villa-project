@@ -151,7 +151,7 @@ button:hover {
 }
 
 .stat-card {
-    min-width: 300px;
+    min-width: 200px;
     min-height: 40px;
     background-color: #262626;
 
@@ -189,4 +189,42 @@ button:hover {
     background: #f35d22;
     border-radius: 50%;
     z-index: 2;
+}
+
+.btn1 {
+    background-color: #262626;
+    color: white;
+    border-radius: 10px;
+}
+
+.contact-section-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.68) blur(2px);
+    z-index: 1;
+}
+
+.contact-card {
+    border-radius: 1.7rem;
+    background: #fff;
+    box-shadow: 0 4px 32px #0002;
+    min-height: 330px;
+}
+
+.contact-info-box {
+    background: #fff;
+    min-width: 180px;
+    min-height: 85px;
+    box-shadow: 0 1px 8px #0001;
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    .contact-card {
+        min-height: 240px;
+    }
 }
