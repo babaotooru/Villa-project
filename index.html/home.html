@@ -12,28 +12,30 @@
 
 <body>
     <div class="container d-flex justify-content-between align-items-center py-4">
-        <div>
-            <!-- <div class="col-12 col-md d-flex justify-content-center justify-content-md-start align-items-center gap-2 compact-flex"> -->
-            <img src="../images/email-icon.png" alt="Email" style="width:20px;">
-            <span>info@company.com</span>
-            <!-- <div class="col-12 col-md d-flex justify-content-center align-items-center gap-2"> -->
-            <img src="../images/map-solid-full.svg" alt="Location" style="width:20px;">
-            <span>Sunny Isles Beach, FL 33160</span>
-            <!-- </div> -->
-
+        <div class="d-flex align-items-center gap-5">
+            <div class="d-flex align-items-center gap-2">
+                <img src="../images/email-icon.png" alt="Email" style="width:20px;">
+                <span>info@company.com</span>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+                <img src="../images/map-solid-full (1).svg" alt="Location" style="width:20px;">
+                <span>Sunny Isles Beach, FL 33160</span>
+            </div>
         </div>
+
         <div class="col-12 col-md-auto d-flex justify-content-center gap-4">
-            <a href="#"><img src="../images/facebook-brands-solid-full.svg" style="width:20px;"></a>
-            <a href="#"><img src="../images/twitter-brands-solid-full.svg" style="width:20px;"></a>
-            <a href="#"><img src="../images/instagram-brands-solid-full.svg" style="width:20px;"></a>
-            <a href="#"><img src="../images/linkedin-brands-solid-full.svg" style="width:20px;"></a>
+            <a class="social-icon" href="#"><img src="../images/facebook-brands-solid-full.svg" style="width:20px;"></a>
+            <a class="social-icon" href="#"><img src="../images/twitter-brands-solid-full.svg" style="width:20px;"></a>
+            <a class="social-icon" href="#"><img src="../images/instagram-brands-solid-full.svg"
+                    style="width:20px;"></a>
+            <a class="social-icon" href="#"><img src="../images/linkedin-brands-solid-full.svg" style="width:20px;"></a>
         </div>
     </div>
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#">VILLA</a>
+            <a class="navbar-brand fw-bold" style="font-size:xx-large;" href="#">VILLA</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -109,29 +111,42 @@
             </div>
 
             <!-- Info Cards -->
-            <div class="col-12 col-lg-4">
-                <div class="row g-3">
-                    <div class="col-6 col-md-12 text-center shadow p-3">
-                        <img src="../images/info-icon-01.png" class="img-fluid mb-2" style="max-width:50px;">
-                        <strong>250 m²</strong><br>Total Flat Space
+            <div class=" col-lg-4" ">
+                <div class=" accordion-item ">
+                <div class=" shadow p-3 rounded" style="height:500px;">
+                <div class="d-flex align-items-center mb-3 gap-5">
+                    <img src="../images/info-icon-01.png" class="img-fluid mb-2" style="max-width:50px;">
+                    <div>
+                        <h4>250 m²</h4>
+                        <p>Total Flat Space</p>
                     </div>
-                    <div class="col-6 col-md-12 text-center shadow p-3">
-                        <img src="../images/info-icon-02.png" class="img-fluid mb-2" style="max-width:50px;">
-                        <strong>Contract</strong><br>Contract Ready
+                </div>
+                <div class="d-flex align-items-center mb-3 gap-5">
+                    <img src="../images/info-icon-02.png" class="img-fluid mb-2 g-3" style="max-width:50px;">
+                    <div>
+                        <h4>Contact</h4>
+                        <p>Contract Ready</p>
                     </div>
-                    <div class="col-6 col-md-12 text-center shadow p-3">
-                        <img src="../images/info-icon-03.png" class="img-fluid mb-2" style="max-width:50px;">
-                        <strong>Payment</strong><br>Payment Process
+                </div>
+                <div class="d-flex align-items-center mb-3 gap-5">
+                    <img src="../images/info-icon-03.png" class="img-fluid mb-2" style="max-width:50px;">
+                    <div>
+                        <h4>Payment</h4>
+                        <p>Payment Process</p>
                     </div>
-                    <div class="col-6 col-md-12 text-center shadow p-3">
-                        <img src="../images/info-icon-04.png" class="img-fluid mb-2" style="max-width:50px;">
-                        <strong>Safety</strong><br>24/7 Security
+                </div>
+                <div class="d-flex align-items-center mb-3 gap-5">
+                    <img src="../images/info-icon-04.png" class="img-fluid mb-2" style="max-width:50px;">
+                    <div>
+                        <h4>Safety</h4>
+                        <p>24/7 Security</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="position-relative" style="height:420px;">
+    </div>
+    <div class="position-relative mt-5" style="height:420px;">
         <!-- Background blur/dark image -->
         <div class="video-section-bg w-100 h-100"></div>
 
@@ -156,7 +171,6 @@
             <span class="stat-label">Buildings<br>Finished Now</span>
             <span class="stat-dot"></span>
         </div>
-
         <!-- Years Experience -->
         <div class="bg-light px-5 py-4 position-relative rounded-3 stat-card d-flex align-items-center"
             style="min-width:160px;">
@@ -173,20 +187,21 @@
             <span class="stat-dot"></span>
         </div>
     </div><br>
-    <div class="container d-flex flex-column align-items-start justify-content-center text-center my-5">
+    <div class="container d-flex flex-column align-items-start justify-content-between text-center my-5">
         <!-- <div class="d-grid justify-content-md-start align-items-center py-3"> -->
         <p style="color: orangered;" class="px-4 ">| BEST DEAL</p>
         <h1 class="fw-bold px-4">Find Your Best Deal <br>RightNow!</h1>
+        <div class="d-grid gap-3 d-md-flex justify-content-md-end align-self-md-end">
+            <button class="btn1" type="button">Appartment</button>
+            <button class="btn1" type="button">Villa House</button>
+            <button class="btn1" type="button">Penthouse</button>
+        </div>
     </div>
-    <div class="d-grid gap-3 d-md-flex justify-content-md-end">
-        <button class="btn1" type="button">Appartment</button>
-        <button class="btn1" type="button">Villa House</button>
-        <button class="btn1" type="button">Penthouse</button>
-    </div>
+
 
     </div>
     <div class="container my-4 ">
-        <div class="row gy-3 align-items-start">
+        <div class="row gy-3 align-items-start gap-2">
             <div class="col-12 col-lg-4">
                 <div class="row g-2">
                     <div class="col-6 col-md-12 text-left shadow p-3">
@@ -220,8 +235,7 @@
                 dolor sit amet consectetur adipisicing elit. Consequuntur, veniam explicabo? Maiores et porro explicabo
                 quibusdam sint commodi quisquam fugiat sunt iste. Enim tenetur, possimus velit cupiditate beatae dolor
                 laudantium?<br>
-                <button>Schedule a Visit</button>
-
+                <button style="width: 50%;">Schedule a Visit</button>
             </div>
         </div>
     </div>
@@ -354,6 +368,7 @@
             </div>
         </div>
     </div>
+    <!-- Contact Layout -->
     <div class="position-relative contact-section" style="background:#f5f5f5; min-height:750px; padding:70px 0 56px 0;">
         <!-- Background image/blur layer -->
         <img src="../images/contact-bg.jpg" class="contact-section-bg" alt="Contact BG">

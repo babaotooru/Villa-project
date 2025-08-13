@@ -1,6 +1,5 @@
-.m-icon {
-    width: 80px;
-    height: 40px;
+.social-icon:hover {
+    background-color: orangered;
     border-radius: 50%;
 }
 
