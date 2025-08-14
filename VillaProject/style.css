@@ -149,6 +149,11 @@ button:hover {
     }
 }
 
+.badge {
+    background-color: var(--bs-danger-bg-subtle);
+    color: var(--bs-danger-text-emphasis);
+}
+
 .stat-card {
     min-width: 200px;
     min-height: 40px;
@@ -159,7 +164,6 @@ button:hover {
     display: flex;
     align-items: center;
     gap: 20px;
-    /* or adjust for spacing */
     position: relative;
     margin-left: 80px;
 }

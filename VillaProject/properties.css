@@ -1,0 +1,80 @@
+.social-icon:hover {
+    background-color: orangered;
+    border-radius: 50%;
+}
+
+.i-icon {
+    width: 80px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.i-icon:hover {
+    background-color: orangered;
+    border-radius: 50%;
+
+}
+
+.bab:hover {
+    color: orangered;
+
+}
+
+button {
+    background-color: rgb(16, 5, 1);
+    color: rgb(244, 7, 7);
+    border: none;
+    border-radius: 30px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.position {
+    position: absolute;
+    top: 250px;
+    left: 700px;
+    background-color: white;
+    padding: 10px;
+    align-self: center;
+    width: 250px;
+
+}
+
+.position1 {
+    position: absolute;
+    top: 320px;
+    left: 650px;
+    color: white;
+}
+
+.btn2 {
+    background-color: rgb(16, 5, 1);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+}
+
+.btn2:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.property-card {
+    margin-right: 20px;
+    /* space between blocks */
+}
+
+.badge {
+    background-color: var(--bs-danger-bg-subtle);
+    color: var(--bs-danger-text-emphasis);
+}
