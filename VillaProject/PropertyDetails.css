@@ -23,7 +23,7 @@
 
 button {
     background-color: rgb(16, 5, 1);
-    color: rgb(244, 7, 7);
+    color: white;
     border: none;
     border-radius: 30px;
     padding: 10px 15px;
@@ -35,10 +35,15 @@ button:hover {
     color: white;
 }
 
+.imgs {
+    width: 1000px;
+    height: 400px;
+}
+
 .position {
     position: absolute;
     top: 250px;
-    left: 650px;
+    left: 600px;
     background-color: white;
     padding: 10px;
     align-self: center;
@@ -49,6 +54,56 @@ button:hover {
 .position1 {
     position: absolute;
     top: 320px;
-    left: 550px;
+    left: 500px;
     color: white;
+}
+
+.deal-features-card {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+    font-size: 1rem;
+}
+
+.feature-label {
+    color: #999;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.feature-value {
+    color: #111;
+    font-weight: 700;
+    font-size: 1.12rem;
+}
+
+.deal-features-card .d-flex:not(:last-child) {
+    border-bottom: 1px solid #eee;
+}
+
+.btn1 {
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: 600;
+    background: #222;
+    color: #fff;
+    transition: background .2s, color .2s;
+}
+
+.btn1.active,
+.btn1:hover {
+    background: orangered;
+    color: #fff;
+}
+
+@media (max-width: 992px) {
+    .deal-features-card {
+        margin-bottom: 24px;
+    }
+}
+
+.badge {
+    background-color: var(--bs-danger-bg-subtle);
+    color: var(--bs-danger-text-emphasis);
 }

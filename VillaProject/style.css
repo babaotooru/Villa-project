@@ -23,7 +23,7 @@
 
 button {
     background-color: rgb(16, 5, 1);
-    color: rgb(244, 7, 7);
+    color: white;
     border: none;
     border-radius: 30px;
     padding: 10px 15px;
@@ -135,6 +135,52 @@ button:hover {
     display: inline-block;
     z-index: 2;
 }
+
+.deal-features-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.feature-label {
+    color: #666;
+    font-weight: 500;
+}
+
+.feature-value {
+    color: #222;
+    font-weight: bold;
+    font-size: 1.13rem;
+}
+
+.deal-features-card .d-flex:not(:last-child) {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.btn1 {
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: 600;
+    background: #222;
+    color: #fff;
+    transition: background .2s, color .2s;
+}
+
+.btn1.active,
+.btn1:hover {
+    background: orangered;
+    color: #fff;
+}
+
+@media (max-width: 992px) {
+    .deal-features-card {
+        margin-bottom: 24px;
+    }
+}
+
 
 @media (max-width: 768px) {
     .d-flex.flex-wrap.gap-3 {

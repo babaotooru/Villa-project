@@ -191,58 +191,76 @@
             <span class="stat-dot"></span>
         </div>
     </div><br>
-    <div class="container d-flex flex-column align-items-start justify-content-between text-center my-5">
-        <!-- <div class="d-grid justify-content-md-start align-items-center py-3"> -->
-        <p style="color: orangered;" class="px-4 ">| BEST DEAL</p>
-        <h1 class="fw-bold px-4">Find Your Best Deal <br>RightNow!</h1>
-        <div class="d-grid gap-3 d-md-flex justify-content-md-end align-self-md-end">
-            <button class="btn1" type="button">Appartment</button>
-            <button class="btn1" type="button">Villa House</button>
-            <button class="btn1" type="button">Penthouse</button>
+    <!-- Best Deal Heading and Switch Buttons -->
+    <div class="container my-5">
+        <p class="fw-bold" style="color: orangered;">| BEST DEAL</p>
+        <div class="d-flex flex-wrap flex-md-nowrap justify-content-between align-items-center">
+            <h1 class="fw-bold mb-3" style="font-size:2.6rem;">
+                Find Your Best Deal <br>Right Now!
+            </h1>
+            <div class="d-flex gap-2 flex-wrap mt-3 mt-md-0">
+                <button class="btn1 active" type="button">Appartment</button>
+                <button class="btn1" type="button">Villa House</button>
+                <button class="btn1" type="button">Penthouse</button>
+            </div>
         </div>
     </div>
 
-
-    </div>
-    <div class="container my-4 ">
-        <div class="row gy-3 align-items-start gap-2">
+    <!-- 3-Column Best Deal Row -->
+    <div class="container my-5">
+        <div class="row g-4 align-items-center">
+            <!-- Features Card -->
             <div class="col-12 col-lg-4">
-                <div class="row g-2">
-                    <div class="col-6 col-md-12 text-left shadow p-3">
-                        <span>Total Flat Space</span><br> <strong>185 m²</strong>
+                <div class="deal-features-card shadow-sm bg-white rounded-4 p-0" style="height: 300px; width: 350px;">
+                    <div class="d-flex justify-content-between align-items-center py-2 border-bottom">
+                        <span class="feature-label">Total Flat Space</span>
+                        <span class="feature-value">185 m<sup>2</sup></span>
                     </div>
-                    <div class="col-6 col-md-12 text-left shadow p-3">
-
-                        <span>Floor number</span><br> <strong>26th</strong>
+                    <div class="d-flex justify-content-between align-items-center py-2 border-bottom">
+                        <span class="feature-label">Floor number</span>
+                        <span class="feature-value">26th</span>
                     </div>
-                    <div class="col-6 col-md-12 text-left shadow p-3">
-                        <span>Number of rooms</span><br> <strong>4</strong>
+                    <div class="d-flex justify-content-between align-items-center py-2 border-bottom">
+                        <span class="feature-label">Number of rooms</span>
+                        <span class="feature-value">4</span>
                     </div>
-                    <div class="col-6 col-md-12 text-left shadow p-3">
-
-                        <span>Parking Available</span><br> <strong>Yes</strong>
+                    <div class="d-flex justify-content-between align-items-center py-2 border-bottom">
+                        <span class="feature-label">Parking Available</span>
+                        <span class="feature-value">Yes</span>
                     </div>
-                    <div class="col-6 col-md-12 text-left shadow p-3">
-
-                        <span>Payment</span><br> <strong>Bank</strong>
+                    <div class="d-flex justify-content-between align-items-center py-2">
+                        <span class="feature-label">Payment Process</span>
+                        <span class="feature-value">Bank</span>
                     </div>
                 </div>
             </div>
+            <!-- Deal Image -->
             <div class="col-12 col-lg-4 text-center">
-                <img class="img-fluid rounded" style="height: 450px;" src="../images/deal-01.jpg" alt="Featured">
+                <img class="img-fluid rounded" style="max-height:330px;object-fit:cover;" src="../images/deal-01.jpg"
+                    alt="Featured">
             </div>
-            <div class="col-12 col-lg-4 row g-3">
-                <strong>Extra info About Property</strong><br><br>Lorem ipsum dolor, sit amet consectetur adipisicing
-                elit.
-                Suscipit numquam pariatur, consequatur accusantium odit a voluptatum ipsam ipsum culpa reprehenderit
-                architecto corporis voluptates vel ad, ex praesentium commodi earum repellendus!<br><br>Lorem ipsum
-                dolor sit amet consectetur adipisicing elit. Consequuntur, veniam explicabo? Maiores et porro explicabo
-                quibusdam sint commodi quisquam fugiat sunt iste. Enim tenetur, possimus velit cupiditate beatae dolor
-                laudantium?<br>
-                <button style="width: 50%;">Schedule a Visit</button>
+            <!-- Extra Info and Button -->
+            <div class="col-12 col-lg-4 d-flex flex-column justify-content-center">
+                <div>
+                    <h5 class="fw-bold mb-3">Extra Info About Property</h5>
+                    <p class="mb-2" style="color:#666;">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        eiusmod tempor pack incididunt ut labore et dolore magna aliqua quisque ipsum suspendisse.
+                    </p>
+                    <p class="mb-4" style="color:#666;">
+                        When you need best websites, you can simply type XYZ in any search engine website.
+                        In addition, you can type XYZ Portfolio, XYZ One Page Layouts, etc.
+                    </p>
+                    <button>
+                        <img src="../images/calendar-regular-full.svg" alt="icon"
+                            style="width: 25px; height: 25px; background-color: #f4f0ee; border-radius: 50%;">Schedule
+                        a Visit</button>
+                </div>
             </div>
         </div>
     </div>
+
+
     <div class="text-center text-bg-light" style="margin-top: 100px;">
         <p style="color: orangered; text-align: center;">| PROPERTIES</p>
         <h1 class="fw-bold text-center">We Provide The Best<br>Property You Like</h1>
