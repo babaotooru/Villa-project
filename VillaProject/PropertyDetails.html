@@ -127,42 +127,64 @@
             </div>
         </div>
     </div>
-    <div class="col-12 col-lg-4 w-100 d-flex justify-content-center align-items-center">
-        <div class="accordion px-4" id="accordionExample">
+    <div class="accordion-container">
+        <div class="accordion" id="propertyAccordion">
+            <!-- Item 1 -->
             <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button text-danger bg-white" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseOne" aria-expanded="true">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button text-danger bg-white fw-bold" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                        aria-controls="collapseOne">
                         Best useful links ?
                     </button>
                 </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show">
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#propertyAccordion">
                     <div class="accordion-body">
-                        Get <strong>the best villa</strong> website template in HTML, CSS, and Bootstrap for
-                        your business. XYZ provides you the Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Doloribus odit eligendi nam sit. Qui aliquid et excepturi ipsam possimus, nam modi sint? Maiores
-                        hic sint ipsam quod a nisi quaerat. in
-                        the world. Please tell your friends about it.
+                        Dolor <strong>almesit amet</strong>, consectetur adipiscing elit, sed do eiusmod tempor
+                        kinfolk tonx seitan crucifix 3 wolf moon bicycle rights keffiyeh snackwave wolf same vice,
+                        chillwave vexillologist incididunt ut labore consectetur <span class="text-danger">adipiscing
+                            elit</span>,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </div>
                 </div>
             </div>
+
+            <!-- Item 2 -->
             <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
-                        How does this work?
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        How does this work ?
                     </button>
                 </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#propertyAccordion">
+                    <div class="accordion-body">
+                        This explains the process step-by-step.
+                    </div>
+                </div>
             </div>
+
+            <!-- Item 3 -->
             <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" data-bs-toggle="collapse"
-                        data-bs-target="#collapseThree">
-                        Why is Villa Agency the Best?
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Why is Villa the best ?
                     </button>
                 </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#propertyAccordion">
+                    <div class="accordion-body">
+                        Villa Agency provides the best services with transparency and trust.
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
+
     <!-- Best Deal Heading and Switch Buttons -->
     <div class="container my-5">
         <p class="fw-bold" style="color: orangered;">| BEST DEAL</p>
